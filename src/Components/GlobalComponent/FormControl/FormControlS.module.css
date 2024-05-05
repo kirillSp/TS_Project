@@ -1,0 +1,13 @@
+.formsControl.errorS input,
+.formsControl.errorS textarea {
+    border: 1px solid red;
+}
+
+.formsControl.errorS span {
+    color: red;
+}
+
+.wrongData {
+    color: red;
+    background: pink;
+}

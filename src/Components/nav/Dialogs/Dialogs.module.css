@@ -1,0 +1,20 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px    
+}
+
+.leftMessages {
+    text-align: left;
+}
+
+.rightMessages {
+    text-align: right;
+}
+
+.messages {
+    background: rgba(0, 0, 255, 0.671);
+}

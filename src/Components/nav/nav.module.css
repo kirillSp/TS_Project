@@ -1,0 +1,22 @@
+.item {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    background: rgba(120, 184, 12, 0.623);
+    grid-area: n;
+}
+
+.active {
+    color: red;
+}
+
+.friends {
+    margin: 20px 0;
+    color: white;
+}

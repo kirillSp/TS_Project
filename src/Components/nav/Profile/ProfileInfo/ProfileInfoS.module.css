@@ -1,0 +1,10 @@
+.profileImg {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.posts > div{
+    margin: 10px;
+}
+

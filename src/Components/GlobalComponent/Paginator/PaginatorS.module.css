@@ -1,0 +1,28 @@
+.numPage {
+    margin: 10px 0;
+}
+
+.numPage span {
+    margin: 0 0;
+}
+
+.pages {
+    border: 1px solid brown;
+    color: brown;
+    padding: 5px;
+}
+
+.selected {
+    color:black;
+    border: 1px solid black;
+    font-weight: 900;
+}
+
+.numPage span:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    color: black;
+    background:  rgb(190, 37, 37);
+    font-weight: 900;
+}
+

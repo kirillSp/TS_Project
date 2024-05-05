@@ -1,0 +1,14 @@
+.numPage span {
+    margin: 0 4px;
+}
+
+
+.numPage span:hover {
+    color: green;
+    font-weight: 900;
+}
+
+.selected {
+    color:red;
+    font-weight: 900;
+}
