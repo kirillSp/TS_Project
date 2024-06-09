@@ -12,11 +12,11 @@ export type TDispatchProps = {
     logout: () => void
 }
 
-class HeaderContainer extends React.Component<TMapStateProps & TDispatchProps> {    
+class HeaderContainer extends React.Component<TMapStateProps & TDispatchProps> {
     render() {
         return <Header {...this.props} />;
     }
 }
 
-let mapStateToProps = (state: RootReducersType) => ({auth: state.auth});
+let mapStateToProps = (state: RootReducersType) => ({ auth: state.auth });
 export default connect<TMapStateProps, TDispatchProps, {}, RootReducersType>(mapStateToProps, { logout })(HeaderContainer);

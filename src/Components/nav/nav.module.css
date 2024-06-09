@@ -1,4 +1,4 @@
-.item {
+/* .item {
     list-style: none;
 }
 
@@ -10,13 +10,13 @@ a {
 .nav {
     background: rgba(120, 184, 12, 0.623);
     grid-area: n;
-}
+} */
 
 .active {
     color: red;
 }
 
-.friends {
+/* .friends {
     margin: 20px 0;
     color: white;
-}
+} */
