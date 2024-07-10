@@ -1,5 +1,5 @@
 export type TListChatUsers = {
-    wsChatData: WebSocket
+    wsChatData: WebSocket | null
 }
 
 export type TChatUsersData = {
